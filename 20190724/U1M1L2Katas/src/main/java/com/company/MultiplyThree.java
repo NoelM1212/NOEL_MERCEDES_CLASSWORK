@@ -10,9 +10,17 @@ public class MultiplyThree {
 
         System.out.println("Enter number"); //prompt for user to input number
 
-        float userInput = keyboard.nextInt();
+        float userInput1 = keyboard.nextInt();
 
-        System.out.println( "When your number is multiplied by three "+(userInput * 3) + " is the result" ) ; //users input * 3
+        System.out.println("Enter number"); //prompt for user to input number
+
+        float userInput2 = keyboard.nextInt();
+
+        System.out.println("Enter number"); //prompt for user to input number
+
+        float userInput3 = keyboard.nextInt();
+
+        System.out.println( "When your numbers are multiplied by each other "+(userInput1*userInput2*userInput3) + " is the result" ) ; //users input * 3
 
     }
 }

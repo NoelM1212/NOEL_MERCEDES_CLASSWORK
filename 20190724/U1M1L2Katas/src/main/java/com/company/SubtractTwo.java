@@ -12,7 +12,11 @@ public class SubtractTwo {
 
         int userInput = keyboard.nextInt();
 
-        System.out.println( "When your number is reduced by two "+(userInput - 2) + " is the result" ) ; //users input - 2
+        System.out.println("Enter second number"); //prompt for user to input number
+
+        int userInput2 = keyboard.nextInt();
+
+        System.out.println( "first number is reduced by your second number  "+(userInput - userInput2) + " is the result" ) ;
 
     }
 }
